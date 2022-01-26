@@ -1,0 +1,34 @@
+Battleships 2021 Mega Ultra
+---------------------------
+Choosing a game mode:
+    1: man vs machine
+        -Play against the latest state of the art AI(tm)
+    2: Player vs Player
+        -Play against a friend (or nemesis)
+    3: Read a fancy manual
+
+    4: Custom game
+        -Insert your own seed for ships:
+            -The quantity of numbers in string defines how many ships are generated.
+            -Each number represents one ships length.
+    
+Playing:
+    Battleship is a war-themed board game for two players in which the opponents try to guess the location of their opponent's warships and sink them.
+    
+    The gameplay is straightforward. Each player hides ships on a grid containing vertical and horizontal space coordinates.
+    Players take turns calling out row and column coordinates on the other player's grid in an attempt to identify a square that contains a ship. 
+
+    The game board each player gets has two grids: an upper and lower grid.
+    The lower grid is used by the player to "hide" the location of his own ships,
+    while the upper grid is used to record the shots fired towards the opponent and to document whether those shots were hits or misses.
+
+    Symbols representing ships and shots etc. are:
+    '-'     -Fog of war. No shots fired yet
+    'O'     -A part of player's ship
+    'X'     -Sunken part of an enemy ship
+    '¤'     -A broken part of player's ship
+    '?'     -Missed shot
+
+Quit or restart:
+    Insert 'menu' anytime to return to main menu.
+    Insert 'exit' anytime to quit game.
